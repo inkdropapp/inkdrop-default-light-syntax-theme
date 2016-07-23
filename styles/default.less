@@ -1,0 +1,165 @@
+/* Define variables: Directly from CSS of http://chriskempson.github.io/base16/#solarized */
+
+.editor {
+
+  @base00: #ffffff;
+  @base01: #303030;
+  @base02: #f5f5f5;
+  @base03: #b0b0b0;
+  @base04: #d0d0d0;
+  @base05: #e0e0e0;
+  @base06: #505050;
+  @base07: #000000;
+  @base08: #fb0120;
+  @base09: #fc6d24;
+  @base0A: #fda331;
+  @base0B: #a1c659;
+  @base0C: #76c7b7;
+  @base0D: #6fb3d2;
+  @base0E: #d381c3;
+  @base0F: #be643c;
+
+  /* Code Styling */
+
+  .CodeMirror {
+  // Gotta have that sweet sweet line spacing
+      line-height: 1.2;
+  }
+  .CodeMirror-scroll {
+      // Background color of main window
+      background-color: @base00;
+      // Color of otherwise un-styled text
+      color: @base06;
+  }
+  .CodeMirror-gutters {
+      // Gutter to the left
+      background-color: @base00;
+  }
+  .CodeMirror-linenumber {
+      // Line numbers in the gutter
+      color: @base03;
+  }
+  .CodeMirror-selected {
+      // Highlighed text
+      background-color: @base02;
+  }
+  .CodeMirror-cursor {
+      // The cursor
+      border-left: 1px solid @base06;
+  }
+  .CodeMirror-matchingbracket,
+  .CodeMirror-matchingtag {
+      // When you click a tag/bracket and the matching one is highlighted
+      background: @base02 !important;
+      color: @base06 !important;
+      border-bottom: 1px solid @base08 !important;
+  }
+  .CodeMirror-foldgutter-open:after {
+      // Those little arrows in the gutter
+      color: @base03;
+  }
+  .CodeMirror-foldgutter-folded:after {
+      // The arrows after you collapse code
+      color: @base04;
+  }
+  .CodeMirror.over-gutter,
+  .CodeMirror-activeline {
+      .CodeMirror-foldgutter-open:after {
+          // Arrows when hovering on the gutter
+          color: @base06;
+      }
+  }
+  .CodeMirror-foldmarker {
+      // The [...] marking collapsed code
+      border-color: @base06;
+      background-color: @base06;
+      color: @base02;
+  }
+  .CodeMirror-searching {
+      // Ctrl + F results
+      background-color: @base0A;
+      // Selected result
+      &.searching-current-match {
+          background-color: @base09;
+      }
+  }
+
+  /* Non-editor Styling */
+
+  #image-holder,
+  #not-editor {
+      background-color: @base00;
+  }
+  #image-holder {
+      color: @base04;
+  }
+  .view-pane .image-view {
+      color: @base06;
+  }
+
+  /* All 'dem swatches */
+
+  .cm-atom,
+  .cm-string,
+  .cm-string-2,
+  .cm-hr,
+  {
+      color: @base0B;
+  }
+  .cm-number,
+  .cm-attribute,
+  .cm-plus {
+      color: @base0A;
+  }
+  .cm-def,
+  .cm-property {
+      color: @base0C;
+  }
+  .cm-variable,
+  .cm-variable-2,
+  .cm-variable-3 {
+      color: @base0E;
+  }
+  .cm-operator,
+  .cm-meta,
+  .cm-bracket {
+      color: @base06;
+  }
+  .cm-comment {
+      color: @base03;
+  }
+  .cm-error,
+  .cm-minus {
+      color: @base09;
+  }
+  .cm-header {
+      color: @base0E;
+  }
+  .cm-link {
+      color: @base0E;
+      text-decoration: none;
+  }
+  .cm-rangeinfo {
+      color: @base0C;
+  }
+  .cm-keyword,
+  .cm-qualifier,
+  .cm-builtin,
+  .cm-tag,
+  .cm-quote {
+      color: @base08;
+  }
+
+  /* Active Line Highlight support */
+  .CodeMirror-activeline-background {
+      background-color: @base02;
+  }
+  .CodeMirror-activeline .CodeMirror-linenumber {
+      background-color: @base01;
+  }
+  .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+      background: @base01;
+  }
+
+}
+/*End of Theme*/

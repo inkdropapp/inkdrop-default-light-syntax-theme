@@ -1,0 +1,5 @@
+{
+  "description": "Default",
+  "theme": "syntax",
+  "styleSheets": ["default.less"]
+}
