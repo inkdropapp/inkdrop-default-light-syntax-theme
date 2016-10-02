@@ -10,7 +10,7 @@
   }
   .CodeMirror-scroll {
     // Color of otherwise un-styled text
-    color: @base06;
+    color: @base01;
   }
   .CodeMirror-gutters {
     // Gutter to the left
@@ -82,25 +82,31 @@
   .cm-property {
     color: @base0C;
   }
-  .cm-variable,
+  .cm-variable {
+    color: @base06;
+  }
   .cm-variable-2,
   .cm-variable-3 {
-    color: @base0E;
+    color: @base0C;
   }
   .cm-operator,
   .cm-meta,
   .cm-bracket {
-    color: @base06;
+    color: @base0E;
   }
   .cm-comment {
-    color: @base03;
+    color: @base06;
+    font-style: italic;
   }
   .cm-error,
   .cm-minus {
     color: @base09;
   }
+  .cm-formatting-header {
+    opacity: 0.3;
+  }
   .cm-header {
-    color: @base0E;
+    color: @base06;
   }
   .cm-link {
     color: @base0E;
