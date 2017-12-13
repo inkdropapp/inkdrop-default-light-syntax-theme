@@ -124,6 +124,16 @@
     .cm-quote {
       color: @base08;
     }
+    .cm-whitespace::before {
+      color: @base06;
+      opacity: 0.4;
+    }
+
+    // carriage return
+    .CodeMirror-code > div > pre > span::after, .CodeMirror-line > span::after {
+      color: @base06;
+      opacity: 0.4;
+    }
   }
 
   /* Active Line Highlight support */
