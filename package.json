@@ -1,9 +1,10 @@
 {
+  "version": "1.0.0",
   "name": "default-light-syntax",
   "description": "Default light syntax theme",
   "theme": "syntax",
   "styleSheets": ["default.less"],
   "engines": {
-    "inkdrop": "^3.25.2"
+    "inkdrop": "^4.x"
   }
 }
