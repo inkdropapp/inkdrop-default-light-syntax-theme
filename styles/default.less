@@ -35,7 +35,7 @@
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
-    background: @base06 !important;
+    background: @base03 !important;
     border-bottom: 1px solid @base08 !important;
   }
   .CodeMirror-foldgutter-open:after {
@@ -163,14 +163,7 @@
   }
 
   /* Active Line Highlight support */
-  .CodeMirror-activeline-background {
-    background-color: @base06 !important;
+  .CodeMirror-activeline-background, .CodeMirror-activeline-gutter {
+    background-color: fade(@base06, 70%) !important;
   }
-  .CodeMirror-activeline .CodeMirror-linenumber {
-    background-color: @base06;
-  }
-  .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background-color: @base06;
-  }
-
 }
