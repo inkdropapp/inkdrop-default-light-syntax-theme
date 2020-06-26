@@ -7,7 +7,7 @@
     "build": "lessc styles/less/default.less ./styles/index.css"
   },
   "styleSheets": [
-    "default.less"
+    "index.css"
   ],
   "engines": {
     "inkdrop": "^4.x"
