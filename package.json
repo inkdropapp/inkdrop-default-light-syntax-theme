@@ -10,7 +10,7 @@
     "index.css"
   ],
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^5.x"
   },
   "devDependencies": {
     "less": "^3.11.3"
