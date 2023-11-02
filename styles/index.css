@@ -3,17 +3,17 @@
   /* Active Line Highlight support */
 }
 .editor .CodeMirror {
-  background-color: #FFFFFF;
-  color: #434C5E;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
 }
 .editor .CodeMirror-scroll {
-  color: #434C5E;
+  color: #cdd6f4;
 }
 .editor .CodeMirror-gutters {
   background-color: #FFFFFF;
 }
 .editor .CodeMirror-linenumber {
-  color: #4C566A;
+  color: #bac2de;
   opacity: 0.6;
 }
 .editor .CodeMirror-selected {
@@ -132,15 +132,14 @@
 }
 .editor .CodeMirror .CodeMirror-code > div > pre > span::after,
 .editor .CodeMirror .CodeMirror-line > span::after {
-  color: #2E3440;
-  opacity: 0.4;
+  color: #cdd6f4;
 }
 .editor .CodeMirror .cm-inline-code {
-  background: rgba(0, 0, 0, 0.02);
-  color: #4C566A;
+  background: #181825;
+  color: #cdd6f4;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
-  background: rgba(0, 0, 0, 0.01);
+  background: #181825;
 }
 .editor .CodeMirror .cm-table-sep,
 .editor .CodeMirror .table-row.table-row-1 {

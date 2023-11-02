@@ -1,15 +1,16 @@
 @import "./colors";
+@import "../../node_modules/@catppuccin/palette/less/mocha.less";
 
 .editor {
 
   .CodeMirror {
     // Background color of main window
-    background-color: #FFFFFF;
-    color: @base02;
+    background-color: @base;
+    color: @text;
   }
   .CodeMirror-scroll {
     // Color of otherwise un-styled text
-    color: @base02;
+    color: @text;
   }
   .CodeMirror-gutters {
     // Gutter to the left
@@ -17,7 +18,7 @@
   }
   .CodeMirror-linenumber {
     // Line numbers in the gutter
-    color: @base03;
+    color: @subtext1;
     opacity: 0.6;
   }
   .CodeMirror-selected {
@@ -153,17 +154,17 @@
 
     // carriage return
     .CodeMirror-code > div > pre > span::after, .CodeMirror-line > span::after {
-      color: @base00;
-      opacity: 0.4;
+      color: @text;
+      // opacity: 0.4;
     }
 
     .cm-inline-code {
-      background: rgba(0, 0, 0, 0.02);
-      color: @base03;
+      background: @mantle;
+      color: @text;
     }
 
     .gfm-codeblock-bg.CodeMirror-linebackground {
-      background: rgba(0, 0, 0, 0.01);
+      background: @mantle;
     }
 
     .cm-table-sep, .table-row.table-row-1 {

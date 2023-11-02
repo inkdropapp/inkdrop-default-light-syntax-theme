@@ -1,7 +1,9 @@
+
 {
-  "version": "1.0.0",
-  "name": "default-light-syntax",
-  "description": "Default light syntax theme",
+  "version": "0.0.1",
+  "name": "catppuccin-dark-syntax",
+  "repository": "https://github.com/kamesuke42/inkdrop-catppuccin-dark-syntax",
+  "description": "catppuccin mocha theme for inkdrop syntax",
   "theme": "syntax",
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"
@@ -14,5 +16,8 @@
   },
   "devDependencies": {
     "less": "^3.11.3"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.2.0"
   }
 }
