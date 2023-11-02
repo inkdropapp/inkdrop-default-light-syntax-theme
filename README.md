@@ -1,1 +1,1 @@
-# Default light syntax theme for Inkdrop Markdown Editor
+# catppuccin mocha theme for inkdrop syntax
