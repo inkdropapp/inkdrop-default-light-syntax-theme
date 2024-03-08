@@ -3,14 +3,14 @@
   /* Active Line Highlight support */
 }
 .editor .CodeMirror {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #434C5E;
 }
 .editor .CodeMirror-scroll {
   color: #434C5E;
 }
 .editor .CodeMirror-gutters {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .editor .CodeMirror-linenumber {
   color: #4C566A;
@@ -53,6 +53,10 @@
 }
 .editor .CodeMirror-searching.searching-current-match {
   background-color: #D08770;
+}
+.editor .CodeMirror .cm-quote {
+  color: #B48EAD;
+  font-style: italic;
 }
 .editor .CodeMirror .cm-atom,
 .editor .CodeMirror .cm-formatting-list.cm-variable-3 {
@@ -111,10 +115,6 @@
 .editor .CodeMirror .cm-tag {
   color: #88C0D0;
 }
-.editor .CodeMirror .cm-quote {
-  color: #B48EAD;
-  font-style: italic;
-}
 .editor .CodeMirror .cm-whitespace::before {
   color: #D8DEE9;
   opacity: 0.4;
@@ -145,6 +145,10 @@
 .editor .CodeMirror .cm-table-sep,
 .editor .CodeMirror .table-row.table-row-1 {
   color: #A3BE8C;
+}
+.editor .CodeMirror .cm-quote.cm-link-barelink {
+  font-style: normal;
+  color: #BF616A;
 }
 .editor .CodeMirror-activeline-background,
 .editor .CodeMirror-activeline-gutter {
