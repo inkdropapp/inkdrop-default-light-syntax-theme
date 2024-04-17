@@ -27,6 +27,7 @@
     /* Background color of main window */
     background-color: hsl(0, 0, 100);
     color: var(--base02);
+    --fat-cursor-color: var(--base08);
 
     .CodeMirror-scroll {
       /* Color of otherwise un-styled text */
