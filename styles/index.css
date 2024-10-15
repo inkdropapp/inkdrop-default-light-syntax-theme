@@ -25,7 +25,7 @@
 
   .CodeMirror {
     /* Background color of main window */
-    background-color: hsl(0, 0, 100);
+    background-color: transparent;
     color: var(--base02);
     --fat-cursor-color: var(--base08);
 
@@ -35,7 +35,8 @@
     }
     .CodeMirror-gutters {
       /* Gutter to the left */
-      background-color: hsl(0, 0, 100);
+      background-color: transparent;
+      border-right: 1px solid hsl(0deg 100% 0% / 10%);
     }
     .CodeMirror-linenumber {
       /* Line numbers in the gutter */
