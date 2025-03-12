@@ -11,8 +11,5 @@
   ],
   "engines": {
     "inkdrop": "^5.x"
-  },
-  "devDependencies": {
-    "less": "^3.11.3"
   }
 }
